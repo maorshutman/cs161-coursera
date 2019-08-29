@@ -9,7 +9,7 @@ struct edge {
 };
 
 bool operator<(const edge& x, const edge& y) {
-  return x.dist < y.dist;
+	return x.dist < y.dist;
 }
 
 struct union_find {

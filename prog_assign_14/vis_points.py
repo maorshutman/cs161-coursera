@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 
 filepath = 'tsp.txt'
 with open(filepath) as fp:
-	line = int(fp.readline())
-	n = int(line)
-	pts = np.zeros((n, 2))
-	for i in range(n):
-		line = fp.readline()
-		floats = [float(x) for x in line.split()]
-		pts[i] = floats
+    line = int(fp.readline())
+    n = int(line)
+    pts = np.zeros((n, 2))
+    for i in range(n):
+        line = fp.readline()
+        floats = [float(x) for x in line.split()]
+        pts[i] = floats
 print(pts)
 print(pts.shape)
 
