@@ -3,7 +3,7 @@ This repository contains correct C++11 solutions to all programming problems in 
 
 
 # Compilation
-All code compiled and tested with g++ on macOS:
+All code compiled and tested with clang on macOS:
 
 Apple LLVM version 10.0.1 (clang-1001.0.46.4) <br/>
 Target: x86_64-apple-darwin18.7.0
